@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="Joel King">
+
+    <link rel="stylesheet" href="http://desizen-com.b0.upaiyun.com/site/css/main.css">
+    <link rel="stylesheet" href="http://typo.sofish.de/typo.css">
+
+    <script src="http://desizen-com.b0.upaiyun.com/site/js/libs/modernizr/modernizr.min.custom.js"></script>
+    <script src="http://desizen-com.b0.upaiyun.com/site/js/libs/zepto/zepto.min.js"></script>
+    
+</head>
+
+<body>
+  <header class="header">
+  <div class="wrap">
+    <div class="header-avatar"><a class="avatar-link" href="/" style="background-image:url(http://desizen-com.b0.upaiyun.com/site/img/joel.jpg)"></a></div>
+
+    <hgroup class="header-text">
+      <h2 class="header-name"><a class="home-link" href="/">Joel King</a></h2>
+      <h3 class="header-title">Co-founder @ dream</h3>
+    </hgroup>
+
+    <section class="header-social">
+      <ul class="header-social-icons">
+        
+        <li class="dribbble"><a class="dribbble-icon icon ss-social-circle ss-dribbble" href="http://dribbble.com/cnjoel"></a>
+        
+        
+        <li class="github"><a class="github-icon icon ss-social-circle ss-octocat" href="http://github.com/cnjoel"></a>
+        
+        
+        <li class="twitter"><a class="twitter-icon icon ss-social-circle ss-twitter" href="http://twitter.com/cnjoel"></a>
+
+      </ul>
+    </section>
+  </div>
+</header>
+<nav class="nav">
+    <a title="Home" href="/" class="home icon ss-standard ss-home"></a>
+
+{% if page.previous %} 
+    <a rel="prev" title="Previous post:
+{{ page.previous.title }}" href="{{ page.previous.url }}" class="previous">{{ page.previous.title }}</a>
+{% endif %}
+
+{% if page.next %} 
+    <a rel="next" title="Next post:
+{{ page.next.title }}" href="{{ page.next.url }}" class="next">{{ page.next.title }}</a>
+{% endif %}
+
+</nav>
+<section class="main" role="main">
+    <article class="article typo">
+        <header class="article-header">
+            <h1 class="article-title">{{ page.title }}</h1>
+            <h2 class="article-byline">By Joel</h2>
+            <time class="article-date">{{ page.date | date_to_string }}</time>
+        </header>
+        <div class="article-body">
+            {{ content }}
+        </div>
+    </article>
+</section>
+
+</body>
+
+</html>
