@@ -1979,7 +1979,7 @@ label
 }
 .nav .next:before
 {
-	background-image: url("http://desizen-com.b0.upaiyun.com/site/img/up.png");
+	background-image: url("/assets/img/up.png");
 	top: 1.3rem;
 }
 .nav .previous
@@ -1988,7 +1988,7 @@ label
 }
 .nav .previous:before
 {
-	background-image: url("http://desizen-com.b0.upaiyun.com/site/img/down.png");
+	background-image: url("/assets/img/down.png");
 	bottom: 1.3rem;
 }
 .article
