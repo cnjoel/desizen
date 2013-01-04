@@ -77,6 +77,9 @@ OS设计的应用程序,让你可以使用大量的工具来创建惊人的线�
 [moqups][]
 ----------
 
+[wireframe.cc][]
+----------------
+
   [webdesignledger.com]: http://webdesignledger.com/tools/10-excellent-tools-for-creating-web-design-wireframes
   [MockFlow]: http://www.mockflow.com/
   [1]: http://ac4.farm3.static.flickr.com/2798/4480593048_08038cdf87_o.jpg
@@ -100,3 +103,4 @@ OS设计的应用程序,让你可以使用大量的工具来创建惊人的线�
   [10]: http://ac4.farm3.static.flickr.com/2727/4479945569_34fdbc2d21_o.jpg
   [Wirify]: http://www.wirify.com/
   [moqups]: https://moqups.com/
+  [wireframe.cc]: http://wireframe.cc/
