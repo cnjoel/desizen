@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 	Desizen
+title: 	less.im
 description: #simplelife #ror #html #css
 ---
 <section class="main" role="main">
